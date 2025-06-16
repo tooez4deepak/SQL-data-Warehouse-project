@@ -33,13 +33,13 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 
 
-## U License
+## 🪪 License
 
 This project is licensed under the [MIT License].(LICENSE).. You are free to use, modify, and share this project with proper attribution
 rabution.
 
 
-#* ** About Me
+## 🌟 About Me
 
 Hi there! I'm **Deepak Pal**, I’ve been Learning SQL and Data Warehouse projects for over past months - want work in global companies like MNCs to deliver real impact with data.
 
