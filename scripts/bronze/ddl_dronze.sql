@@ -61,8 +61,8 @@ IF OBJECT_ID('bronze.erp_LOC_A101', 'U') IS NOT NULL
 GO
 
 CREATE TABLE bronze.erp_LOC_A101 (
-    CID    NVARCHAR(50),
-    CNTRY  NVARCHAR(50)
+    cid    NVARCHAR(50),
+    cntry  NVARCHAR(50)
 );
 GO
 
@@ -71,9 +71,9 @@ IF OBJECT_ID('bronze.erp_CUST_AZ12', 'U') IS NOT NULL
 GO
 
 CREATE TABLE bronze.erp_CUST_AZ12 (
-    CID    NVARCHAR(50),
-    BDATE  DATE,
-    GEN    NVARCHAR(50)
+    cid    NVARCHAR(50),
+    bdate  DATE,
+    gen    NVARCHAR(50)
 );
 GO
 
@@ -82,9 +82,9 @@ IF OBJECT_ID('bronze.erp_PX_CAT_G1V2', 'U') IS NOT NULL
 GO
 
 CREATE TABLE bronze.erp_PX_CAT_G1V2 (
-    ID           NVARCHAR(50),
-    CAT          NVARCHAR(50),
-    SUBCAT       NVARCHAR(50),
-    MAINTENANCE  NVARCHAR(50)
+    id           NVARCHAR(50),
+    cat          NVARCHAR(50),
+    subcat       NVARCHAR(50),
+    maintenance  NVARCHAR(50)
 );
 GO
