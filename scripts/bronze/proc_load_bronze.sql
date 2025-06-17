@@ -78,9 +78,9 @@ BEGIN
 
 		SET @start_time = GETDATE();
 		PRINT 'Loading Bronze Customer  Data';
-		TRUNCATE TABLE bronze.erp_CUST_AZ12;
-		BULK INSERT bronze.erp_CUST_AZ12
-		FROM 'C:\Users\18dee\Downloads\sql-data-warehouse-project (1)\sql-data-warehouse-project\datasets\source_erp\CUST_AZ12.csv'
+		TRUNCATE TABLE bronze.erp_cust_az12;
+		BULK INSERT bronze.erp_cust_az12
+		FROM 'C:\Users\18dee\Downloads\sql-data-warehouse-project (1)\sql-data-warehouse-project\datasets\source_erp\cust_az12.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -92,9 +92,9 @@ BEGIN
 
 		SET @start_time = GETDATE();
 		PRINT 'Loading Bronze Location  Data';
-		TRUNCATE TABLE bronze.erp_LOC_A101;
-		BULK INSERT bronze.erp_LOC_A101
-		FROM 'C:\Users\18dee\Downloads\sql-data-warehouse-project (1)\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
+		TRUNCATE TABLE bronze.erp_loc_a101;
+		BULK INSERT bronze.erp_loc_a101
+		FROM 'C:\Users\18dee\Downloads\sql-data-warehouse-project (1)\sql-data-warehouse-project\datasets\source_erp\loc_a101.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -106,9 +106,9 @@ BEGIN
 
 		SET @start_time = GETDATE();
 		PRINT 'Loading Bronze  Data';
-		TRUNCATE TABLE bronze.erp_PX_CAT_G1V2;
-		BULK INSERT bronze.erp_PX_CAT_G1V2
-		FROM 'C:\Users\18dee\Downloads\sql-data-warehouse-project (1)\sql-data-warehouse-project\datasets\source_erp\PX_CAT_G1V2.csv'
+		TRUNCATE TABLE bronze.erp_px_cat_g1v2;
+		BULK INSERT bronze.erp_px_cat_g1v2
+		FROM 'C:\Users\18dee\Downloads\sql-data-warehouse-project (1)\sql-data-warehouse-project\datasets\source_erp\px_cat_g1v2.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
