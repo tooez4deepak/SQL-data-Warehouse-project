@@ -29,4 +29,3 @@ SELECT
     CHARACTER_MAXIMUM_LENGTH  -- Only applies to character-based columns
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'dim_customers';
-
